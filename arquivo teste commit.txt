@@ -1,1 +1,18 @@
 Anotação de teste para primeiro commit do projeto
+
+------------ comandos uteis git ---------------
+
+ls - lista arquivos no diretorio
+cd - abre diretorio
+pwd - mostra caminho completo pro diretorio atual
+git clone - só adicionar o caminho.
+
+---------- fim dos comandos uteis ---------------
+
+# criar chave par de chaves priv/pub
+
+ssh-keygen -t ed25519 -c "seu e-mail, sem as aspas"
+
+# iniciar agente para controle de chave ssh
+
+eval $(ssh-agent -s)
